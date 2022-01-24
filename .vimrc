@@ -28,12 +28,12 @@ set foldenable
 set foldlevelstart=10
 set conceallevel=2
 nnoremap <space> za
-nnoremap j gj
-nnoremap k gk
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+nnoremap <Tab> gt
+nnoremap <S-Tab> gT
 filetype indent on
 vnoremap <C-y> "+y
 map <C-p> "+P
