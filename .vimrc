@@ -37,6 +37,7 @@ nnoremap <S-Tab> gT
 filetype indent on
 vnoremap <C-y> "+y
 map <C-p> "+P
+shiftwidth=2
 autocmd Filetype rmd map <F5> :!echo<space>"require(rmarkdown);<space>render('<c-r>%')"<space>\|<space>R<space>--vanilla<enter>
 let g:vim_markdown_strikethrough=1
 "let g:tex_conceal = ""
