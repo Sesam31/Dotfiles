@@ -28,10 +28,15 @@ set foldenable
 set foldlevelstart=10
 set conceallevel=2
 nnoremap <space> za
+" Simplified split navigation
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+" Change inside $
+nnoremap ci$ T$ct$
+nnoremap ca$ F$cf$
+" Simplified tab navigation
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 filetype indent on
